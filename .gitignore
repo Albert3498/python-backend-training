@@ -1,0 +1,15 @@
+.env
+.env.local
+/venv/
+/venv.old/
+*.pyc*
+__pycache__/
+.venv/
+.venv
+.vscode/
+*.db
+Autentication.txt
+backend/counter.json
+.claude/
+.pytest_cache/
+docs/

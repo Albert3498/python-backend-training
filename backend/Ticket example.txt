@@ -1,0 +1,29 @@
+Ticket counter reset:
+{"counter": {"Contract": 0, "Task": 0, "Document": 0}, "tickets": {}}
+Realistic examples (create as staff, e.g. anaf_agent / anpc_agent — "to" must be a registered civilian):
+ANAF vehicle tax notice
+{
+  "title": "Notificare restanta impozit auto 2026",
+  "to": "gigel_pop",
+  "description": "Restanta la impozitul auto pentru anul fiscal 2026, termen de plata 30 zile de la primirea notificarii.",
+  "priority": "high",
+  "type": "Document"
+}
+
+ANPC consumer complaint follow-up
+{
+  "title": "Solicitare completare dosar reclamatie nr. 4521",
+  "to": "gigel_pop",
+  "description": "Va rugam sa transmiteti documentele justificative suplimentare pentru reclamatia depusa impotriva comerciantului.",
+  "priority": "medium",
+  "type": "Task"
+}
+
+ANAF property tax contract renewal
+{
+  "title": "Reinnoire contract esalonare datorii fiscale",
+  "to": "gigel_pop",
+  "description": "Contractul de esalonare a datoriilor fiscale expira in 15 zile, este necesara semnarea actului aditional.",
+  "priority": "low",
+  "type": "Contract"
+}
