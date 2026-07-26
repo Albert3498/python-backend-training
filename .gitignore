@@ -9,7 +9,7 @@ __pycache__/
 .vscode/
 *.db
 Autentication.txt
-backend/counter.json
+counter.json
 .claude/
 .pytest_cache/
 docs/
